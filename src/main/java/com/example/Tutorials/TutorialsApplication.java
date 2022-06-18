@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TutorialsApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(TutorialsApplication.class, args);
+
+		System.out.println("\n\nHello Jenkins..\n\n");
 	}
+
 
 }
